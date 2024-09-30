@@ -1,0 +1,140 @@
+@import'../mixins/mixin.scss';
+
+body {
+    margin: 0;
+    background-color: black;
+    margin: 48px 60px;
+    // background-image: url(/asstes/574cd37db6758f74e7b0812019f7d2a8.jpg);
+
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    height: 50px;
+
+    max-width: 1500px;
+
+    &__logo-contain {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    &__logo-style {
+        align-items: center;
+        background-color: white;
+        height: 33px;
+    }
+
+    &__logo-text {
+        display: flex;
+        flex-wrap: wrap;
+        width: 60px;
+    }
+
+    &__logo-text1 {
+        // font-family: "Playwrite DE Grund", cursive;
+        font-weight: bold;
+        @include logoText(14px);
+    }
+
+    &__logo-text2 {
+        // font-family: "Playwrite DE Grund", cursive;
+        @include logoText(12px);
+    }
+
+    &__navig {
+        display: flex;
+        gap: 32px;
+    }
+
+    &__navig-link {
+        @include logoText();
+        text-decoration: none;
+    }
+
+    &__btn {
+        @include logoText();
+        @include btnBlack;
+    }
+}
+
+.page-main {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    justify-items: center;
+    // background-image: url(/asstes/574cd37db6758f74e7b0812019f7d2a8.jpg);
+    // margin-top: 300px;
+    // width: 50%;
+
+    &__contain {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        width: 600px;
+        color: white;
+        font-family: "Nunito", sans-serif;
+    }
+
+    &__titlu {
+        // margin: 0;
+        // display: flex;
+        // align-items: center;
+    }
+
+    &__text {
+        margin: 0;
+        font-weight: lighter;
+        align-items: center;
+    }
+
+    &__btn {
+        @include logoText();
+        @include btnWhite;
+        margin: 32px 0;
+    }
+&__bg1 {
+    border: none;
+    border-radius: 35px;
+    height: 400px;
+    width: 600px;
+
+
+}
+    &__coment {
+        color: white;
+        border: 1px solid white;
+        border-radius: 12px;
+        padding: 10px 22px;
+        position: absolute;
+    }
+
+    &__coment1 {
+        display: flex;
+    }
+
+    &__coment-img {
+        margin-right: 4px;
+        height: 16px;
+        width: 16x;
+    }
+
+    &__coment-txt1 {
+        background: url(/asstes/star-icon-32.png);
+        @include logoText(11px);
+        font-weight: lighter;
+        text-align: center
+    }
+
+    &__coment-txt2 {
+        @include logoText(16px);
+        text-align: center;
+        margin-top: 4px;
+    }
+
+}

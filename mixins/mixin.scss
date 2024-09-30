@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+DE+Grund:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+// @import url(/asstes/574cd37db6758f74e7b0812019f7d2a8.jpg);
+
+@mixin logoText ($f: 14px){
+    margin: 0;
+    display: flex;
+    font-size: $f;
+    text-transform: capitalize;
+    font-family: "Noto Sans", sans-serif;
+    color: white;
+
+}
+@mixin btnBlack{
+    padding: 9px 50px;
+    border: none;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 20px;
+
+}
+@mixin btnWhite{
+    padding: 9px 50px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 20px;
+
+}

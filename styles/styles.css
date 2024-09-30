@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+DE+Grund:wght@100..400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+body {
+  margin: 0;
+  background-color: black;
+  margin: 48px 60px;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  height: 50px;
+  max-width: 1500px;
+}
+.page-header__logo-contain {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.page-header__logo-style {
+  align-items: center;
+  background-color: white;
+  height: 33px;
+}
+.page-header__logo-text {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60px;
+}
+.page-header__logo-text1 {
+  font-weight: bold;
+  margin: 0;
+  display: flex;
+  font-size: 14px;
+  text-transform: capitalize;
+  font-family: "Noto Sans", sans-serif;
+  color: white;
+}
+.page-header__logo-text2 {
+  margin: 0;
+  display: flex;
+  font-size: 12px;
+  text-transform: capitalize;
+  font-family: "Noto Sans", sans-serif;
+  color: white;
+}
+.page-header__navig {
+  display: flex;
+  gap: 32px;
+}
+.page-header__navig-link {
+  margin: 0;
+  display: flex;
+  font-size: 14px;
+  text-transform: capitalize;
+  font-family: "Noto Sans", sans-serif;
+  color: white;
+  text-decoration: none;
+}
+.page-header__btn {
+  margin: 0;
+  display: flex;
+  font-size: 14px;
+  text-transform: capitalize;
+  font-family: "Noto Sans", sans-serif;
+  color: white;
+  padding: 9px 50px;
+  border: none;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
+.page-main {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  justify-items: center;
+}
+.page-main__contain {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  width: 600px;
+  color: white;
+  font-family: "Nunito", sans-serif;
+}
+.page-main__text {
+  margin: 0;
+  font-weight: lighter;
+  align-items: center;
+}
+.page-main__btn {
+  margin: 0;
+  display: flex;
+  font-size: 14px;
+  text-transform: capitalize;
+  font-family: "Noto Sans", sans-serif;
+  color: white;
+  padding: 9px 50px;
+  border: none;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border-radius: 20px;
+  margin: 32px 0;
+}
+.page-main__bg1 {
+  border: none;
+  border-radius: 35px;
+  height: 400px;
+  width: 600px;
+}
+.page-main__coment {
+  color: white;
+  border: 1px solid white;
+  border-radius: 12px;
+  padding: 10px 22px;
+  position: absolute;
+}
+.page-main__coment1 {
+  display: flex;
+}
+.page-main__coment-img {
+  margin-right: 4px;
+  height: 16px;
+  width: 16x;
+}
+.page-main__coment-txt1 {
+  background: url(/asstes/star-icon-32.png);
+  margin: 0;
+  display: flex;
+  font-size: 11px;
+  text-transform: capitalize;
+  font-family: "Noto Sans", sans-serif;
+  color: white;
+  font-weight: lighter;
+  text-align: center;
+}
+.page-main__coment-txt2 {
+  margin: 0;
+  display: flex;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-family: "Noto Sans", sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 4px;
+}/*# sourceMappingURL=styles.css.map */
